@@ -1,0 +1,13 @@
+ 
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin,image/* 
+Actions=PRMan_denoise
+MimeType=exr
+
+[Desktop Action PRMan_denoise]
+Name=PRMan Denoise
+Terminal=true
+Icon=/opt/pixar/RenderManStudio-19.0-maya2014/icons/pxrman.xpm
+Exec=python /path/to/denoise2rr.py %F
